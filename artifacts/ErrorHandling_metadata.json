@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "reason",
+						"type": "string"
+					}
+				],
+				"name": "ErrorLogging",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "catchError",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TryCatchErrorHandling.sol": "ErrorHandling"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TryCatchErrorHandling.sol": {
+			"keccak256": "0xbf770aa5bd1b37e5c0a20554be630b304866f73182a54f5c4662dec6235dc542",
+			"urls": [
+				"bzz-raw://70a4bfcb9a06f6f485ae836ef313d720511d69f3a095127c395ad139833fb7b9",
+				"dweb:/ipfs/QmazmsE4iinQnSc9Uxjoo37KFLbW1TBr3S9z1TaNz1rLPv"
+			]
+		}
+	},
+	"version": 1
+}
